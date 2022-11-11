@@ -11,7 +11,7 @@
 from Main import drone
 # Prepare the drone
 def arm_drone(): 
-  # The definition drone.action.arm() commands the drone to spin all motors slowly
+  # The function drone.action.arm() commands the drone to spin all motors slowly
   # For safety purposes, we will delay arming by 10 seconds. 
   print("Drone is arming in 10 seconds, please clear area of all objects and personal!")
   time.sleep(5)
@@ -23,7 +23,7 @@ def arm_drone():
   
   
 # Commands for test flight
-# Note: Drone arming is done seperately in the definition init_drone()
+# Note: Drone arming is done seperately in the function init_drone()
 def test_flight:
   time.sleep(3)
   await drone.action.disarm()
