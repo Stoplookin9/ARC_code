@@ -4,8 +4,9 @@
 # 
 # See ARC_code/README.md for full information
 # ------------------------------
-# Import built in modules
+# Import built in modules for all files
 import math
+import random
 import time
 # Import MAVSDK library, this library will be actually
 # controlling the drone (such as taking off or setting max speed)
