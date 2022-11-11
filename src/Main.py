@@ -13,3 +13,5 @@ import time
 from mavsdk import System
 # Create a System() object called drone
 drone = System()
+# Load config settings
+f = open("", "r")
