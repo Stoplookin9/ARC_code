@@ -1,7 +1,6 @@
 # ARC_code
 ## What is ARC?
-someone steal description from arc tutorials lol i'm too lazy to write up a summary
-
+ARC, short for Aerospace Robotics Competition, insert information here lol
 ## Meet the team
 i'm just going to have plp type their names and roles here
 
