@@ -16,3 +16,5 @@ MAVSDK API documentation is located [here](http://mavsdk-python-docs.s3-website.
 ARC documentation is located [here](https://arc-tutorials.readthedocs.io/en/latest/)
 
 For basic programming tutorials in Python, go [here](https://learn.droneblocks.io/)
+
+For quick testing of drone commands, go (here)[https://replit.com/@StanleyChen14/ARCPrototypeTest#main.py]
