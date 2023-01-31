@@ -9,6 +9,7 @@ import math
 import random
 import time
 import json
+import asyncio
 # Import MAVSDK library, this library will be actually
 # controlling the drone (such as taking off or setting max speed)
 from mavsdk import System
