@@ -8,22 +8,15 @@
 # Import drone from Main.py
 # Python automatically caches imported modules, so we do not have to 
 # import external libraries/built in modules again
-from Main import drone
-# Prepare the drone
-async def arm_drone(): 
-  # The function drone.action.arm() commands the drone to spin all motors slowly
-  # For safety purposes, we will delay arming by 10 seconds. 
-  print("Drone is arming in 10 seconds, please clear area of all objects and personal!")
-  time.sleep(5)
-  print("Drone is arming in 5 seconds!")
-  time.sleep(5)
-  print("Drone arming!")
-  # Arm the drone
-  await drone.action.arm()
-  
-  
-# Commands for test flight
-# Note: Drone arming is done seperately in the function init_drone()
-async def test_flight():
-  time.sleep(3)
-  await drone.action.disarm()
+import main
+import config
+import asyncio
+async def run():
+  try:
+    await main.drone.connect()
+  except: 
+    print("Unable to connect to drone")
+  else: 
+    print("Sucessfully connected to drone")
+  main.time.sleep(2)
+
