@@ -15,9 +15,4 @@ import asyncio
 from mavsdk import System
 # Create a System() object called drone
 drone = System()
-# Load config settings
-f = open("config.json", "r")
-# Create a dictionary and parse json from the file into it
-config = json.loads(f.read())
 
-# config["max_speed"]
