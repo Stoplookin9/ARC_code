@@ -5,18 +5,18 @@
 # See ARC_code/README.md for full information
 # ------------------------------
 # To keep everything organized, we will define drone actions in action.py
-# Import drone from Main.py
-# Python automatically caches imported modules, so we do not have to 
-# import external libraries/built in modules again
-import main
+# Import drone from Main.py 
+# import external libraries/built in modules
+from main import drone
+import time
 import config
 import asyncio
 async def run():
   try:
-    await main.drone.connect()
+    await drone.connect()
   except: 
     print("Unable to connect to drone")
   else: 
     print("Sucessfully connected to drone")
-  main.time.sleep(2)
+  time.sleep(2)
 
