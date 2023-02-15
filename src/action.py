@@ -11,6 +11,8 @@ from main import drone
 import time
 import config
 import asyncio
+# Main function for drone
+# This function will be all the stuff the drone actually does
 async def run():
   try:
     await drone.connect()
