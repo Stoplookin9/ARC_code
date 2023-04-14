@@ -10,6 +10,7 @@ Jordan Lin - Engineering is cool
 ## Code documentation
 `src`
  - Contains the source for actual flying, as well as utilities
+ 
 `waypoint`
  - Contains the waypoint algorithm
 
