@@ -8,8 +8,13 @@ Stanley Chen - Team Captain, Main Programmer, ~~stop self promoting yourself bru
 
 Jordan Lin - Engineering is cool
 ## Code documentation
+`src`
+ - Contains the source for actual flying, as well as utilities
+`waypoint`
+ - Contains the waypoint algorithm
 
-WIP
+
+
 ## Resources
 MAVSDK API documentation is located [here](http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/)
 
